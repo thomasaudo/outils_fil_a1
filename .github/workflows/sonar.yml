@@ -23,4 +23,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v1.2
+      env: 
+        SONAR_TOKEN: f13ded65b3ca8c32da1eeda57c613283d0ade2f0  
 
